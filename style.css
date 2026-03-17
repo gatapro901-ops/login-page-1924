@@ -1,0 +1,85 @@
+
+      /* Global Styles */
+      body {
+         font-family: 'Cairo', sans-serif;
+         background-image: linear-gradient(to bottom, #1a1d23, #161819);
+         height: 100vh;
+         margin: 0;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+
+      /* Container Styles */
+      .container {
+         background: rgba(24, 24, 27, 0.2);
+         box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+         backdrop-filter: blur(10px);
+         -webkit-backdrop-filter: blur(10px);
+         border-radius: 10px;
+         padding: 20px;
+         width: 300px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         border: 1px solid transparent;
+         transition: all 0.3s ease;
+      }
+
+      .container:hover {
+         box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.57);
+      }
+
+      /* Input Field Styles */
+      .input-field {
+         width: 100%;
+         padding: 10px;
+         margin-bottom: 20px;
+         border: none;
+         border-radius: 5px;
+         background: rgba(24, 24, 27, 0.2);
+         box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+         backdrop-filter: blur(10px);
+         -webkit-backdrop-filter: blur(10px);
+      }
+
+      .input-field:focus {
+         box-shadow: 0 0 0 2px #4f46e5;
+      }
+
+      /* Button Styles */
+      .btn {
+         width: 100%;
+         padding: 10px;
+         border: none;
+         border-radius: 5px;
+         background-image: linear-gradient(to right, #4f46e5, #7c3aed);
+         color: #ffffff;
+         cursor: pointer;
+         transition: all 0.3s ease;
+      }
+
+      .btn:hover {
+         background-image: linear-gradient(to right, #6c5ce7, #8f64f7);
+      }
+
+      /* Animation Styles */
+      .animate {
+         animation: fadeIn 2s;
+      }
+
+      @keyframes fadeIn {
+         0% {
+            opacity: 0;
+         }
+         100% {
+            opacity: 1;
+         }
+      }
+
+      /* Placeholder Styles */
+      ::placeholder {
+         color: #6b7280;
+      }
+   
